@@ -1,10 +1,16 @@
 import './App.css'
+import Header from './components/Header'
+import MainS from './components/MainS'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
-      <div>This is my new awesome page</div>
+      <Header>
+      </Header>
+      <MainS></MainS>
+      <Footer></Footer>
     </>
   )
 }
